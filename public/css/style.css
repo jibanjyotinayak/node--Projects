@@ -12,7 +12,9 @@ body {
     background-color: #f39c12;
 
 }
-
+/* .main-content{
+    flex-grow:1;
+} */
 footer{
     color:rgb(228, 130, 228);
     border-top:1px solid #bbb;
@@ -31,9 +33,9 @@ h1{
     margin: bottom 16px; 
 }
 
-img{
-    width:250px
-}
+/* img{
+    width:400px;
+} */
 .potrait{
     flex-grow:1;
     width: 500px;

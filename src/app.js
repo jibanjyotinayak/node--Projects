@@ -31,22 +31,22 @@ app.use(express.static(publicDirectoryPath));
 app.get("", (req, res) => {
   res.render("index", {
     title: "Weather App",
-    name: "jiban nayak",
+    name: "jibanjyoti nayak",
   });
 });
 
 app.get("/about", (req, res) => {
   res.render("about", {
     title: "About",
-    name: "Javascript Projects",
+    name: "Jibanjyoti Nayak",
   });
 });
 
-app.get("/over", (req, res) => {
-  res.render("over", {
-    title: "Anish",
+app.get("/help", (req, res) => {
+  res.render("help", {
+    title: "Help",
     age: 24,
-    name: "jiban",
+    name: "jibanjyoti Nayak",
   });
 });
 //app.com
