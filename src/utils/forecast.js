@@ -13,9 +13,9 @@ request ({url, json:true}, (error, {body}) =>{
     else {
         callback (undefined,
             'The timezone id  is : ' + body.location.timezone_id +
-             "\n"+ '.  The latitude is : '+  body.location.lat+
-             "\n"+ '.  The longitude is '  + body.location.lon +
-             "\n"+ '.  The temperature is ' + body.current.temperature +
+             '\n'+ '.  The latitude is : '+  body.location.lat+
+             '\n'+ '.  The longitude is '  + body.location.lon +
+             '\n'+ '.  The temperature is ' + body.current.temperature +
              '\n' + 'and the the local time is '+ body.location.localtime)
 
         }  
